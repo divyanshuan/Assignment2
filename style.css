@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(230, 230, 153),
+    rgb(233, 191, 65)
+  );
+}
+.heading {
+  margin-top: 3rem;
+  text-align: center;
+}
+.card_container {
+  /* padding: 10px; */
+  width: 36rem;
+  margin: 5rem auto;
+}
+.flipped{
+  background-color: red;
+}
+.cardss {
+  height: 9rem;
+  width: 9rem;
+  /* border: 1px solid red; */
+  background-color: #fff;
+}
+.card_section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
